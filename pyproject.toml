@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2024-president"
+version = "0.1.0"
+description = ""
+authors = ["Juan Lee <ninejuan@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.35.63"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
